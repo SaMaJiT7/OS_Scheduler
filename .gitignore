@@ -1,0 +1,19 @@
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.swp
+*.swo
+
+# Datasets (large, lives in Google Drive)
+*.npz
+*.npy
+npy_files/
+
+# Trained model artifacts (regenerable)
+ml/checkpoints/
+*.pt
+*.pth
+*.ckpt
